@@ -1,0 +1,12 @@
+{
+    "zenMode.centerLayout": false,
+    "zenMode.hideLineNumbers": false,
+    "zenMode.showTabs": "single",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": false,
+    "editor.fontSize": 11,
+    "editor.lineNumbers": "relative",
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+}
