@@ -19,4 +19,6 @@ keymap("v", ">", ">gv", opts)
 -- general keymaps
 keymap({"n", "v"}, "<leader>t", "<cmd>lua require('vscode').action('workbench.action.terminal.toggleTerminal')<CR>")
 keymap({"n", "v"}, "<leader>d", "<cmd>lua require('vscode').action('editor.action.showHover')<CR>")
-keymap({"n", "v"}, "<leader>pv", "<cmd>lua require('vscode').action('workbench.files.action.focusFilesExplorer')<CR>")keymap({"n", "v"}, "<leader>cn", "<cmd>lua require('vscode').action('notifications.clearAll')<CR>")
+keymap({"n", "v"}, "<leader>pv", "<cmd>lua require('vscode').action('workbench.files.action.focusFilesExplorer')<CR>")
+keymap({"n", "v"}, "<leader>cn", "<cmd>lua require('vscode').action('notifications.clearAll')<CR>")
+keymap({"n", "v"}, "<leader>pf", "<cmd>lua require('vscode').action('workbench.action.quickOpen')<CR>")
