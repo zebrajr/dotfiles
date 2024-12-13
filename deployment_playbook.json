@@ -1,0 +1,12 @@
+[
+  {
+    "source": "config/nvim",
+    "destination": "~/.config/nvim",
+    "type": "replace"
+  },
+  {
+    "source": "oh-my-zsh/custom/aliases.zsh",
+    "destination": "~/.oh-my-zsh/custom/aliases.zsh",
+    "type": "append"
+  }
+]
