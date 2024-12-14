@@ -1,6 +1,5 @@
 if vim.g.vscode then
-  -- VSCode Neovim
-  require "user.vscode_keymaps"
+    require('vscode.vscode_keymaps')
 else
-  -- Ordinary Neovim
+    require('user')
 end
