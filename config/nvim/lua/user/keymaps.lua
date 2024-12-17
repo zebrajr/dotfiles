@@ -1,7 +1,7 @@
 -- Improve Half Page Up and Half Down by by centering the view directly
 vim.keymap.set('n', '<C-u>', '<C-u>zz', {})
 vim.keymap.set('n', '<C-d>', '<C-d>zz', {})
--- improve n and N navigation
+-- keep ide centered when moving though search terms
 vim.keymap.set('n', 'n', 'nzzzv')
 vim.keymap.set('n', 'N', 'Nzzzv')
 
@@ -20,6 +20,10 @@ vim.keymap.set('n', '<C-k>', '<C-w><C-k>', { desc = 'Move focus to the upper win
 -- add keybinds to move lines up and down quicker
 vim.keymap.set('n', '<C-Up>', 'ddkP', { desc = 'Move Line 1 Up' })
 vim.keymap.set('n', '<C-Down>', 'ddp', { desc = 'Move Line 1 Down' })
+
+-- add keybinds to move lines up and down quicker when in visual mode
+vim.keymap.set('v', 'K', ":m '<-2<CR>gv=gv")
+vim.keymap.set('v', 'J', ":m '>+1<CR>gv=gv")
 
 -- yank to System Clipboard
 vim.keymap.set({'n', 'v'}, '<leader>y', [["+y]])

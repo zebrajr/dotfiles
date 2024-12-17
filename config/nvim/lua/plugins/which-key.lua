@@ -6,6 +6,9 @@ return {
     opts = {
         preset = 'modern',
         delay = '300',
+        icons = {
+            mappings = false,
+        },
     },
     keys = {
         {
