@@ -1,5 +1,10 @@
+require("leaders")
 if vim.g.vscode then
-    require('vscode.vscode_keymaps')
+	require('vscode')
 else
-    require('user')
+	require('editor_settings')
+	require('user')
 end
+
+vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
+vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" }) 

@@ -1,0 +1,17 @@
+return {
+    "bash",
+    "csv",
+    "dockerfile",
+    "html",
+    "markdown",
+    "python",
+    "lua",
+    "go",
+    "json",
+    "gdscript",
+    "query",
+    "javascript",
+    "vim",
+    "vimdoc",
+    "powershell",
+}

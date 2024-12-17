@@ -1,0 +1,16 @@
+return {
+    lua_ls = {},
+    gopls = {},
+    powershell_es = {},
+    ansiblels = {},
+    bashls = {},
+    cssls = {},
+    dockerls = {},
+    docker_compose_language_service = {},
+    html = {},
+    eslint = {},
+    jsonls = {},
+    marksman = {},
+    pylyzer = {},
+    yamlls = {},
+}

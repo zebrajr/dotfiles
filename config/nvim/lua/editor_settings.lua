@@ -6,12 +6,6 @@ vim.opt.relativenumber = true
 -- Enable mouse mode
 vim.opt.mouse = 'a'
 
--- Sync clipboard between OS and Neovim
-vim.schedule(function()
-	vim.opt.clipboard = 'unnamedplus'
-end)
-
-
 vim.opt.breakindent = true
 
 -- case insensitive search unless \C or capital letters are used
@@ -25,7 +19,7 @@ vim.opt.signcolumn = 'yes'
 vim.opt.updatetime = 1000
 
 -- decrease popup delay
-vim.opt.timeoutlen = 300
+vim.opt.timeoutlen = 500
 
 -- configure new splits
 vim.opt.splitright = true

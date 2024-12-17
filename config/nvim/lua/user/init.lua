@@ -1,5 +1,2 @@
 require('user.keymaps')
-require('user.editor_settings')
-require('user.autocommands')
 require('user.pluginmanager')
-require('user.post_boot')
