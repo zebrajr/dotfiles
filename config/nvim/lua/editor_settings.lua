@@ -44,3 +44,12 @@ vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4
 -- uses spaces instead of tabs
 vim.opt.expandtab = true
+
+-- folding standard & folding helping
+vim.opt.foldmethod = "indent"
+vim.opt.foldcolumn = "1"
+-- main function is open, rest is folded by default when opening a file
+vim.opt.foldlevelstart = 1
+vim.opt.foldlevel = 0 
+-- sets the max nested folds
+vim.opt.foldnestmax = 4

@@ -30,14 +30,3 @@ require("lazy").setup({
   checker = { enabled = true },
 })
 
--- require('lazy').setup({
---     spec = {
---         { 'j-hui/fidget.nvim' },
---     },
--- 
---     install = {
---         colorscheme = { 'rose-pine' },
---     },
--- 
---     checker = { enabled = true},
--- })

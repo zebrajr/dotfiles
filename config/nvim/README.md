@@ -23,6 +23,8 @@ If just starting / want to learn vim motions and not vim, the IDE / the LSP is c
 - [Lazy Plugin Manager](https://github.com/folke/lazy.nvi)
     - [Telescope](https://github.com/nvim-telescope) - The Fuzzy Finder
     - [Treesitter](https://github.com/nvim-treesitter/nvim-treesitter) - The Parser / Syntax Helper
+    - [Treesitter-Context](https://github.com/nvim-treesitter/nvim-treesitter-context) - Context for Nested Code
+    - [Harpoon](https://github.com/ThePrimeagen/harpoon) - Making navigate between 2-4 files easier
     - [mason](https://github.com/williamboman/mason.nvim) - Package Manager for LSP Servers
         - [mason-lspconfig](https://github.com/williamboman/mason-lspconfig.nvim) - Making LSP Installation Easier
         - [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) - Quickstart configs for nvim LSP
