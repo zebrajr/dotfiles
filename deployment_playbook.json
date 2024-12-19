@@ -8,5 +8,10 @@
     "source": "oh-my-zsh/custom/aliases.zsh",
     "destination": "~/.oh-my-zsh/custom/aliases.zsh",
     "type": "append"
+  },
+  {
+      "source": "home/tmux.conf",
+      "destination": "~/.tmux.conf",
+      "type": "replace"
   }
 ]
