@@ -54,3 +54,11 @@ vim.opt.foldlevelstart = 4
 -- sets the max nested folds
 vim.opt.foldnestmax = 4
 
+-- highlight on yanking
+vim.api.nvim_create_autocmd('TextYankPost', {
+    desc = 'Highlight when yanking text',
+    group = vim.api.nvim_create_augroup('user-highlight-yank', { clear = true }),
+    callback = function()
+        vim.highlight.on_yank()
+    end,
+})
