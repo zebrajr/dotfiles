@@ -14,9 +14,9 @@ return {
             local rose = require('rose-pine')
             rose.setup({
                 variant = "main",
-                dim_inactive_windows = true,
+                dim_inactive_windows = false,
                 styles = {
-                    transparency = false,
+                    transparency = true,
                 },
                 highlight_groups = {
                     TelescopeNormal = { fg = "subtle", bg = "overlay" },
