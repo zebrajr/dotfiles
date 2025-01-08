@@ -16,7 +16,7 @@ return {
                 variant = "main",
                 dim_inactive_windows = false,
                 styles = {
-                    transparency = true,
+                    transparency = false,
                 },
                 highlight_groups = {
                     TelescopeNormal = { fg = "subtle", bg = "overlay" },
