@@ -11,6 +11,6 @@ return {
     eslint = {},
     jsonls = {},
     marksman = {},
-    pylyzer = {},
+    pyright = {},
     yamlls = {},
 }
