@@ -1,0 +1,4 @@
+search_dirs=(
+    ~/Personal/github
+    ~/syncthing/dev2go
+)
