@@ -5,13 +5,18 @@
     "type": "replace"
   },
   {
-    "source": "oh-my-zsh/custom/aliases.zsh",
-    "destination": "~/.oh-my-zsh/custom/aliases.zsh",
-    "type": "append"
+    "source": "oh-my-zsh/custom",
+    "destination": "~/.oh-my-zsh/custom",
+    "type": "replace"
   },
   {
       "source": "home/tmux.conf",
       "destination": "~/.tmux.conf",
+      "type": "replace"
+  },
+  {
+      "source": "local/scripts",
+      "destination" : "~/.local/scripts",
       "type": "replace"
   }
 ]
