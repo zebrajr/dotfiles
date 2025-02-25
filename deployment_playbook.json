@@ -15,6 +15,11 @@
       "type": "replace"
   },
   {
+      "source": "home/gitconfig",
+      "destination": "~/.gitconfig",
+      "type": "replace"
+  },
+  {
       "source": "local/scripts",
       "destination" : "~/.local/scripts",
       "type": "replace"

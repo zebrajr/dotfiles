@@ -1,0 +1,68 @@
+#[user]
+#	email = email@domain.tld
+#	name = Carlos Sousa
+
+[column]
+    # Configures the column display settings for the Git user interface 
+    ui = auto 
+
+[branch]
+    # Configures the sorting order for Git branches 
+    sort = -comitterdate 
+
+[tag]
+    # Configures the sorting order for Git tags 
+    sort = version:refname 
+
+[init]
+    # Sets the default branch name for new Git repositories 
+    defaultBranch = master
+
+[diff]
+    # Sets the diff algorithm to use the "histogram" algorithm
+    algorithm = histogram
+    # Sets the color scheme for moved lines in diffs
+    colorMoved = plain
+    # Enables mnemonic prefixes (a/, b/) in diffs
+    mnemonicPrefix = true
+    # Enables renaming detection in diffs
+    renames = true 
+
+[push]
+    # Sets the default push behavior to "simple" (only push the current branch)
+    default = simple
+    # Automatically sets up the remote branch when pushing a new branch
+    autoSetupRemote = true
+    # Pushes tags along with the branch when pushing
+    followTags = true 
+
+[fetch]
+    # Prunes local references to deleted remote branches
+    prune = true
+    # Prunes local references to deleted remote tags
+    pruneTags = true
+    # Fetches from all remotes
+    all = true 
+
+[help]
+    # Enables autocorrect for Git commands
+    autocorrect = prompt 
+
+[commit]
+    # Enables verbose commit messages
+    verbose = true 
+
+# Configures the Git rerere (reuse recorded resolution) settings 
+[rerere]
+    # Enables the rerere feature
+    enabled = true
+    # Automatically updates the rerere cache
+    autoupdate = true 
+
+[rebase]
+    # Automatically squashes commits during rebase
+    autoSquash = true
+    # Automatically stashes changes before rebase
+    autoStash = true
+    # Updates the refs during rebase
+    updateRefs = true 
