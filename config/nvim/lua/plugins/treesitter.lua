@@ -5,7 +5,7 @@ return {
     config = function ()
         local configs = require("nvim-treesitter.configs")
         local treesitter_languages = require("configs.treesitter-langs")
-        
+
         configs.setup({
             ensure_installed = {
                 treesitter_languages
@@ -27,4 +27,4 @@ return {
             }
         })
     end
-} 
+}
