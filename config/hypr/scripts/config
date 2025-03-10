@@ -2,3 +2,5 @@
 # All sub directories are included
 #WALLPAPER_DIR="/mnt/data/Zebra/Photos/Edited"
 
+# Device Identifier
+#DEVICE_IDENTIFIER="work-laptop"
