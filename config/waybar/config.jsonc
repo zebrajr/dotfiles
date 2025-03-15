@@ -36,15 +36,17 @@
         //"disable-scroll": true,
         "all-outputs": true,
         "warp-on-scroll": false,
+        //"format": "{name}: {icon}",
         "format": "{name}: {icon}",
         "format-icons": {
-            "1": "",   // Current Work / Task
-            "2": "",   // Documentation
-            "3": "🌐",  // Browser
-            "4": "",   // Console / Batch
-            "5": "🎮",  // Fun / Leisure
-            "6": "",   // Communication
+            "1": " Work",   // Current Work / Task
+            "2": " Docs",   // Documentation
+            "3": "🌐 Browser",  // Browser
+            "4": " Term",   // Console / Batch
+            "5": "🎮 Fun",  // Fun / Leisure
+            "6": " Comms",   // Communication
             "7": "",
+            //"active": "",
             "urgent": "",
             "focused": "",
             "default": ""
