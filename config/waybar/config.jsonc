@@ -5,9 +5,15 @@
     // "width": 1280, // Waybar width
     //"spacing": 4, // Gaps between modules (4px)
     // Choose the order of the modules
-    "modules-left": ["hyprland/window"],
-    "modules-center": ["hyprland/workspaces", "hyprland/mode", "hyprland/scratchpad", "custom/media"],
-    //"modules-right": ["mpd", "idle_inhibitor", "pulseaudio", "network", "cpu", "memory", "temperature", "backlight", "keyboard-state", "battery", "battery#bat2", "clock", "tray"],
+    "modules-left": [
+        "hyprland/window"
+    ],
+    "modules-center": [
+        "hyprland/workspaces",
+        "hyprland/mode",
+        "hyprland/scratchpad",
+        "custom/media"
+    ],
     "modules-right": [
         "mpd",
         "idle_inhibitor",
@@ -26,22 +32,24 @@
         "custom/power"
     ],
     // Modules configuration
-    // "hyprland/workspaces": {
-    //     "disable-scroll": true,
-    //     "all-outputs": true,
-    //     "warp-on-scroll": false,
-    //     "format": "{name}: {icon}",
-    //     "format-icons": {
-    //         "1": "",
-    //         "2": "",
-    //         "3": "",
-    //         "4": "",
-    //         "5": "",
-    //         "urgent": "",
-    //         "focused": "",
-    //         "default": ""
-    //     }
-    // },
+    "hyprland/workspaces": {
+        //"disable-scroll": true,
+        "all-outputs": true,
+        "warp-on-scroll": false,
+        "format": "{name}: {icon}",
+        "format-icons": {
+            "1": "",   // Current Work / Task
+            "2": "",   // Documentation
+            "3": "🌐",  // Browser
+            "4": "",   // Console / Batch
+            "5": "🎮",  // Fun / Leisure
+            "6": "",   // Communication
+            "7": "",
+            "urgent": "",
+            "focused": "",
+            "default": ""
+        }
+    },
     "keyboard-state": {
         "numlock": true,
         "capslock": true,
@@ -208,10 +216,11 @@
 		"menu": "on-click",
 		"menu-file": "$HOME/.config/waybar/resources/power_menu.xml", // Menu file in resources folder
 		"menu-actions": {
-			"shutdown": "shutdown",
-			"reboot": "reboot",
-			"suspend": "systemctl suspend",
-			"hibernate": "systemctl hibernate"
+			"shutdown": "systemctl poweroff",
+			"reboot": "systemctl reboot",
+            "logout": "hyprctl dispath exit"
+			// "suspend": "systemctl suspend",
+			// "hibernate": "systemctl hibernate"
 		}
     }
 }
