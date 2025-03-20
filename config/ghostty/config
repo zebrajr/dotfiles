@@ -49,3 +49,7 @@ background-blur = 20
 window-decoration = none
 theme = rose-pine
 font-size = 8
+
+
+# Without this, sshing into a server is unusable
+term = xterm-256color
