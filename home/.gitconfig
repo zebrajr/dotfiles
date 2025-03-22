@@ -1,6 +1,8 @@
-#[user]
-#	email = email@domain.tld
-#	name = Carlos Sousa
+[user]
+	email = me@carlossousa.tech
+	name = Carlos Sousa
+
+
 
 [column]
     # Configures the column display settings for the Git user interface 
@@ -8,7 +10,7 @@
 
 [branch]
     # Configures the sorting order for Git branches 
-    sort = -comitterdate 
+    sort = -committerdate 
 
 [tag]
     # Configures the sorting order for Git tags 
