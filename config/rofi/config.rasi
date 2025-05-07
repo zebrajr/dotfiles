@@ -6,6 +6,7 @@ configuration {
     display-drun: "Apps";
     display-run: "Exec";
     display-combi: "Search";
+    font: "FiraMonoNerdFont-Regular 8";
 
     /* Behavior */
     cycle: true;
