@@ -7,9 +7,7 @@ return {
         local treesitter_languages = require("configs.treesitter-langs")
 
         configs.setup({
-            ensure_installed = {
-                treesitter_languages
-            },
+            ensure_installed = treesitter_languages,
 
             sync_install = false,
 
