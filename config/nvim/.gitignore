@@ -1,0 +1,2 @@
+# secrets for nvim
+lua/secrets/*.lua
