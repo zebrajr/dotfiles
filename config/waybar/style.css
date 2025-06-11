@@ -97,8 +97,8 @@ button:hover {
 #scratchpad,
 #mpd {
   margin: 2px;
-  padding-left: 4px;
-  padding-right: 4px;
+  padding-left: 2px;
+  padding-right: 2px;
   background-color: rgba(0,0,0,0.3);
   color: #ffffff;
 }
