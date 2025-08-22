@@ -6,10 +6,10 @@ return {
         strategies = {
             -- Change Default Adapter
             chat = {
-                adapter = "ollama",
+                adapter = "openai_mini",
             },
             inline = {
-                adapter = "openai_41mini",
+                adapter = "local_test",
                 keymaps = {
                     accept_change = {
                         modes = { n = "ga" },
@@ -23,9 +23,9 @@ return {
             },
         },
         adapters = {
-            openai_41mini = function()
+            openai_mini = function()
                 return require("codecompanion.adapters").extend("openai", {
-                    name = "openai_41mini",
+                    name = "openai_mini",
                     schema = {
                         model = {
                             default = "gpt-4.1-mini"
@@ -36,9 +36,42 @@ return {
                     }
                 })
             end,
-            ollama = function()
+            local_test = function()
                 return require("codecompanion.adapters").extend("ollama", {
-                    name = "local_llama3.2",
+                    name = "local_test",
+                    schema = {
+                        model = {
+                            default = "gemma3:4b"
+                        },
+                        num_ctx = {
+                            default = 16384,
+                        },
+                        num_predict = {
+                            default = -1,
+                        },
+                    },
+                })
+            end,
+
+            local_best = function()
+                return require("codecompanion.adapters").extend("ollama", {
+                    name = "local_best",
+                    schema = {
+                        model = {
+                            default = "qwen3:4b"
+                        },
+                        num_ctx = {
+                            default = 16384,
+                        },
+                        num_predict = {
+                            default = -1,
+                        },
+                    },
+                })
+            end,
+            local_fast = function()
+                return require("codecompanion.adapters").extend("ollama", {
+                    name = "local_fast",
                     schema = {
                         model = {
                             default = "llama3.2:3b"

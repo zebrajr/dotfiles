@@ -34,3 +34,6 @@ If just starting / want to learn vim motions and not vim, the IDE / the LSP is c
     - [UndoTree](https://github.com/mbbill/undotree) - Undo History Visualizer
     - [vim-fugitive](https://github.com/tpope/vim-fugitive) - Git Wrapper
     - [fidget](https://github.com/j-hui/fidget.nvim) - Notification & Messages
+
+
+
